@@ -17,4 +17,8 @@ There is no chain restriction because there should never (! very unlikely on a c
 
 The checking address should be in this format:
 
-https://raw.githubusercontent.com/alphawallet/iconassets/master/[TOKEN ADDRESS W/CHECKSUM]/logo.png
+https://raw.githubusercontent.com/alphawallet/iconassets/master/YOUR_TOKEN_ADDRESS_HERE/logo.png
+
+Note that the address needs to be checksummed eg:
+
+https://raw.githubusercontent.com/alphawallet/iconassets/master/0xe52eCd3d16E7b194ad16a8C338b1805fE3F66644/logo.png
