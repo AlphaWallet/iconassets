@@ -22,7 +22,7 @@ Note that the address needs to be checksummed eg:
 https://raw.githubusercontent.com/alphawallet/iconassets/master/0xe52eCd3d16E7b194ad16a8C338b1805fE3F66644/logo.png
 
 
-How to add new assets:
+# How to add new assets
 
 1. clone the repo ```> git clone https://github.com/AlphaWallet/iconassets.git```
 2. add a directory with the name of your address; checksummed eg: BUSD 0xe9e7cea3dedca5984780bafc599bd69add087d56 
