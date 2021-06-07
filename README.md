@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/alphawallet/iconassets/master/0xe52eCd3d16E7b1
 
 3. Copy the logo into this directory as ```logo.png``` which should be in PNG/JPG format, preferrably around 3k -> 9k size; 128 x 128 pixels is found to be ideal.
 ```
-Directory: D:\dev\iconassets\0x000004F5A30d9394316782AC3EE971546bcAa682
+Directory: /dev/iconassets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
 
 
 Mode                 LastWriteTime         Length Name
