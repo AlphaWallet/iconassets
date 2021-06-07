@@ -1,19 +1,17 @@
 # Iconassets
 Icons for TestNet contracts
 
-Acts as a repo for holding icons for TestNet token contracts. 
+Acts as a repo for holding icons for contracts not covered by our existing source.
 
-Useful for demos etc.
+The icon selection process looks like this:
 
-The wallet should pick up contract icons from these chains:
+1. If base chain, use SVG icon from the built-in asset (eg Eth, xDai).
+2. Try Trust icon asset repo, if found use this.
+3. Try iconassets here.
 
-- Rinkeby
-- Ropsten
-- Sokol
-- Kovan
-- Goerli
+This applies to all chains on the basis that if contracts are the same on different networks they are owned by the same key holder.
 
-There is no chain restriction because there should never (! very unlikely on a cosmic scale) be an address collision between chains unless the contract is created from the same key and same nonce. Since this only caters for test net contracts the consequences of an icon collision are very minor.
+There is no chain restriction because there should never (! very unlikely on a cosmic scale) be an address collision between chains unless the contract is created from the same key and same nonce.
 
 The checking address should be in this format:
 
