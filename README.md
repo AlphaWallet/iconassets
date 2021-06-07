@@ -1,13 +1,13 @@
 # Iconassets
-Icons for TestNet contracts
+Icon repo for AlphaWallet UI improvement.
 
-Acts as a repo for holding icons for contracts not covered by our existing source.
+Acts as a repo for holding icons for contracts not covered by our existing sources, and is implemented on both platforms.
 
 The icon selection process looks like this:
 
 1. If base chain, use SVG icon from the built-in asset (eg Eth, xDai).
-2. Try Trust icon asset repo, if found use this.
-3. Try iconassets here.
+2. Try Trust icon asset repo, if found use the graphic found here.
+3. Try iconassets here, if found use the graphic here.
 
 This applies to all chains on the basis that if contracts are the same on different networks they are owned by the same key holder.
 
