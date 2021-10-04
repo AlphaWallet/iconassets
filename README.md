@@ -3,15 +3,18 @@ Icon repo for AlphaWallet UI improvement.
 
 Acts as a repo for holding icons for contracts not covered by our existing sources, and is implemented on both platforms.
 
-The icon selection process looks like this:
+The icon selection look like this:
+
+(process was re-ordered to improve wallet aesthetics)
 
 1. If base chain, use SVG icon from the built-in asset (eg Eth, xDai).
-2. Try Trust icon asset repo, if found use the graphic found here.
-3. Try iconassets here, if found use the graphic here.
+2. Try iconassets here, if found use the graphic asset from this repo.
+3. Try Trust icon asset repo, if found use the graphic.
+4. If no asset found, render a text icon using the Token Symbol name if appropriate.
 
 This applies to all chains on the basis that if contracts are the same on different networks they are owned by the same key holder.
 
-There is no chain restriction because there should never (! very unlikely on a cosmic scale) be an address collision between chains unless the contract is created from the same key and same nonce.
+There is no chain restriction because there should never be an address collision between chains unless the contract is created from the same key and same nonce.
 
 The checking address should be in this format:
 
