@@ -28,15 +28,15 @@ https://raw.githubusercontent.com/alphawallet/iconassets/master/0xe52eCd3d16E7b1
 # How to add new assets
 
 1. clone the repo ```> git clone https://github.com/AlphaWallet/iconassets.git```
-2. add a directory with the name of your address; checksummed eg: BUSD 0xe9e7cea3dedca5984780bafc599bd69add087d56 
-   to find checksum address enter the address into Etherscan: https://etherscan.io/address/0xe9e7cea3dedca5984780bafc599bd69add087d56 then click on the 'copy address to clipboard' icon at the top, right of the displayed address:
-   
-```> mkdir 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56```  <-- notice the mix of upper and lowercase. If not checksummed, lookup won't work.
+2. add a directory with the name of your address, all lowercased eg: BUSD `0xe9e7cea3dedca5984780bafc599bd69add087d56`, not `0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56`
+
+```
+> mkdir 0xe9e7cea3dedca5984780bafc599bd69add087d56
+```
 
 3. Copy the logo into this directory as ```logo.png``` which should be in PNG/JPG format, preferrably around 3k -> 9k size; 128 x 128 pixels is found to be ideal.
 ```
-Directory: /dev/iconassets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
-
+Directory: /dev/iconassets/0xe9e7cea3dedca5984780bafc599bd69add087d56
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
