@@ -20,10 +20,9 @@ The checking address should be in this format:
 
 https://raw.githubusercontent.com/alphawallet/iconassets/master/YOUR_TOKEN_ADDRESS_HERE/logo.png
 
-Note that the address needs to be checksummed eg:
+Note that the address needs to be lowercased (i.e. not apply EIP55) eg:
 
-https://raw.githubusercontent.com/alphawallet/iconassets/master/0xe52eCd3d16E7b194ad16a8C338b1805fE3F66644/logo.png
-
+https://raw.githubusercontent.com/alphawallet/iconassets/master/0xe52ecd3d16e7b194ad16a8c338b1805fe3f66644/logo.png
 
 # How to add new assets
 
