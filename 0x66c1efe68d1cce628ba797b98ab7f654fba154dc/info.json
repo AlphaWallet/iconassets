@@ -1,0 +1,11 @@
+{
+    "name": "MetaLabz",
+    "symbol": "MLZ",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "Web3 gamify org focused on XR/VR development.",
+    "website": "https://metalabz.gg/",
+    "explorer": "https://bscscan.com/address/0x66c1efe68d1cce628ba797b98ab7f654fba154dc",
+    "status": "active",
+    "id": "MLZ"
+    }
